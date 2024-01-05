@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from '../commponents/Layout/Header'
+import Hero from '../commponents/Routes/Hero/Hero'
 
 const HomePage = () => {
   return (
     <>
-    <div>Hello World</div>
+    <Header />
+    <Hero />
     </>
   )
 }
